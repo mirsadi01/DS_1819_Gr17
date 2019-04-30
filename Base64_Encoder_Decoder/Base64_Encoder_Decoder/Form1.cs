@@ -54,5 +54,10 @@ namespace Base64_Encoder_Decoder
                 "IV të studimeve, niveli bachelor, UP 'Hasan Prishtina' - FIEK.\n\nMentor:     MSc. Arbnor Halili\nStudentët: Erza Hasangjekaj & Mirsad Dibrani" +
                 "\n\n                                                 Prishtinë, Maj 2019");
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
