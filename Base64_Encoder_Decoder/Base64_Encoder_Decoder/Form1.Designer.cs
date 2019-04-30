@@ -140,6 +140,7 @@
             this.btnEncode.TabIndex = 9;
             this.btnEncode.Text = "Encode";
             this.btnEncode.UseVisualStyleBackColor = false;
+            this.btnEncode.Click += new System.EventHandler(this.btnEncode_Click);
             // 
             // menuStrip1
             // 

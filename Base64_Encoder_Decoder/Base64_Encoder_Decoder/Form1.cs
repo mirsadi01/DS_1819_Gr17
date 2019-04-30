@@ -16,5 +16,16 @@ namespace Base64_Encoder_Decoder
         {
             InitializeComponent();
         }
+
+        private void btnEncode_Click(object sender, EventArgs e)
+        {
+            byte[] data = System.Text.Encoding.UTF8.GetBytes(txtPlaintext.Text);
+            Base64Encoder myEncoder = new Base64Encoder(data);
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append(myEncoder.GetEncoded());
+
+            txtEncoded.Text = sb.ToString();
+        }
     }
 }
