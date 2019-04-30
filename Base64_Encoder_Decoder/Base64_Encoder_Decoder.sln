@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base64_Encoder_Decoder", "Base64_Encoder_Decoder\Base64_Encoder_Decoder.csproj", "{CCC6BBA9-0CBF-477C-9F33-06498BA30A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCC6BBA9-0CBF-477C-9F33-06498BA30A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC6BBA9-0CBF-477C-9F33-06498BA30A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC6BBA9-0CBF-477C-9F33-06498BA30A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC6BBA9-0CBF-477C-9F33-06498BA30A95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C39B8FAE-E413-4B1E-8A1B-815E3D5094D9}
+	EndGlobalSection
+EndGlobal
