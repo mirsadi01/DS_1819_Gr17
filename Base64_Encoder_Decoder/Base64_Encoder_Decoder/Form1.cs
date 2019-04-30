@@ -46,5 +46,13 @@ namespace Base64_Encoder_Decoder
             txtEncoded.Clear();
             txtDecoded.Clear();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("“Implementimi i Base64 enkoderit dhe dekoderit” është detyrë e realizuar në " +
+                "kuadër të lëndës “Siguria e të Dhënave”, lëndë e cila është oligative dhe i takon semestrit " +
+                "IV të studimeve, niveli bachelor, UP 'Hasan Prishtina' - FIEK.\n\nMentor:     MSc. Arbnor Halili\nStudentët: Erza Hasangjekaj & Mirsad Dibrani" +
+                "\n\n                                                 Prishtinë, Maj 2019");
+        }
     }
 }
