@@ -39,5 +39,12 @@ namespace Base64_Encoder_Decoder
 
             txtDecoded.Text = sb.ToString();
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtPlaintext.Clear();
+            txtEncoded.Clear();
+            txtDecoded.Clear();
+        }
     }
 }
