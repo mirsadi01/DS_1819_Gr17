@@ -107,6 +107,7 @@
             this.btnDecode.TabIndex = 12;
             this.btnDecode.Text = "Decode";
             this.btnDecode.UseVisualStyleBackColor = false;
+            this.btnDecode.Click += new System.EventHandler(this.btnDecode_Click);
             // 
             // txtPlaintext
             // 

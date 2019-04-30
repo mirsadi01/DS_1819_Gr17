@@ -27,5 +27,17 @@ namespace Base64_Encoder_Decoder
 
             txtEncoded.Text = sb.ToString();
         }
+
+        private void btnDecode_Click(object sender, EventArgs e)
+        {
+            char[] data = txtEncoded.Text.ToCharArray();
+            Base64Decoder myDecoder = new Base64Decoder(data);
+            StringBuilder sb = new StringBuilder();
+
+            byte[] temp = myDecoder.GetDecoded();
+            sb.Append(System.Text.UTF8Encoding.UTF8.GetChars(temp));
+
+            txtDecoded.Text = sb.ToString();
+        }
     }
 }
