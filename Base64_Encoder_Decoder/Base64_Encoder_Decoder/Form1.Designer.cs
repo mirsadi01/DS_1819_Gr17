@@ -46,7 +46,7 @@
             // btnClear
             // 
             this.btnClear.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(472, 380);
+            this.btnClear.Location = new System.Drawing.Point(480, 412);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(96, 38);
             this.btnClear.TabIndex = 17;
@@ -57,7 +57,7 @@
             // 
             this.txtDecoded.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDecoded.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDecoded.Location = new System.Drawing.Point(280, 264);
+            this.txtDecoded.Location = new System.Drawing.Point(288, 296);
             this.txtDecoded.Multiline = true;
             this.txtDecoded.Name = "txtDecoded";
             this.txtDecoded.Size = new System.Drawing.Size(288, 92);
@@ -69,7 +69,7 @@
             this.lblDecoded.BackColor = System.Drawing.Color.Transparent;
             this.lblDecoded.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDecoded.ForeColor = System.Drawing.Color.White;
-            this.lblDecoded.Location = new System.Drawing.Point(122, 296);
+            this.lblDecoded.Location = new System.Drawing.Point(130, 328);
             this.lblDecoded.Name = "lblDecoded";
             this.lblDecoded.Size = new System.Drawing.Size(152, 20);
             this.lblDecoded.TabIndex = 15;
@@ -79,7 +79,7 @@
             // 
             this.txtEncoded.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEncoded.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEncoded.Location = new System.Drawing.Point(280, 149);
+            this.txtEncoded.Location = new System.Drawing.Point(288, 181);
             this.txtEncoded.Multiline = true;
             this.txtEncoded.Name = "txtEncoded";
             this.txtEncoded.Size = new System.Drawing.Size(288, 92);
@@ -91,7 +91,7 @@
             this.lblEncoded.BackColor = System.Drawing.Color.Transparent;
             this.lblEncoded.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEncoded.ForeColor = System.Drawing.Color.White;
-            this.lblEncoded.Location = new System.Drawing.Point(123, 184);
+            this.lblEncoded.Location = new System.Drawing.Point(131, 216);
             this.lblEncoded.Name = "lblEncoded";
             this.lblEncoded.Size = new System.Drawing.Size(151, 20);
             this.lblEncoded.TabIndex = 13;
@@ -101,7 +101,7 @@
             // 
             this.btnDecode.BackColor = System.Drawing.Color.Green;
             this.btnDecode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDecode.Location = new System.Drawing.Point(574, 235);
+            this.btnDecode.Location = new System.Drawing.Point(582, 267);
             this.btnDecode.Name = "btnDecode";
             this.btnDecode.Size = new System.Drawing.Size(104, 35);
             this.btnDecode.TabIndex = 12;
@@ -112,7 +112,7 @@
             // 
             this.txtPlaintext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPlaintext.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPlaintext.Location = new System.Drawing.Point(280, 32);
+            this.txtPlaintext.Location = new System.Drawing.Point(288, 64);
             this.txtPlaintext.Multiline = true;
             this.txtPlaintext.Name = "txtPlaintext";
             this.txtPlaintext.Size = new System.Drawing.Size(288, 92);
@@ -124,7 +124,7 @@
             this.lblPlaintext.BackColor = System.Drawing.Color.Transparent;
             this.lblPlaintext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPlaintext.ForeColor = System.Drawing.Color.White;
-            this.lblPlaintext.Location = new System.Drawing.Point(123, 68);
+            this.lblPlaintext.Location = new System.Drawing.Point(131, 100);
             this.lblPlaintext.Name = "lblPlaintext";
             this.lblPlaintext.Size = new System.Drawing.Size(83, 20);
             this.lblPlaintext.TabIndex = 10;
@@ -134,7 +134,7 @@
             // 
             this.btnEncode.BackColor = System.Drawing.Color.Teal;
             this.btnEncode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEncode.Location = new System.Drawing.Point(574, 120);
+            this.btnEncode.Location = new System.Drawing.Point(582, 152);
             this.btnEncode.Name = "btnEncode";
             this.btnEncode.Size = new System.Drawing.Size(104, 35);
             this.btnEncode.TabIndex = 9;
@@ -148,7 +148,7 @@
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(826, 24);
             this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -169,7 +169,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(826, 483);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.txtDecoded);
